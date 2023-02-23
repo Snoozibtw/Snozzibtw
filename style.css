@@ -1,0 +1,114 @@
+
+body {
+        font-family: 'Aldrich', sans-serif;
+        padding: 0;
+        font-size: 16px;
+        color: #444444;
+        background-image: linear-gradient(65deg, rgb(85, 0, 74), rgba(122, 0, 106, 0.5) 80%, rgba(196, 0, 153, 0.3) 100%);
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+.page {
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+div {
+    display: block;
+}
+
+.container {
+    padding: 30px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: -2px 8px 12px rgb(0 0 0 / 30%);
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+      box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+      transform: translatey(0px);
+    }
+    50% {
+      box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+      transform: translatey(-20px);
+    }
+    100% {
+      box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+      transform: translatey(0px);
+    }
+  }
+
+div {
+    display: block;
+}
+
+.page {
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.profile-image {
+    width: 60px;
+    border-radius: 10px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.page {
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+div {
+    display: block;
+}
+
+.page {
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.links a {
+    color: #444444;
+}
+
+.links a:hover {
+    color: #141414;
+    font-size: 14px;
+    transition: 1s ease-out 100ms
+}
+
+.love {
+    top: 20px;
+    position: relative;
+}
+
+.copyright {
+    top: 30px;
+    position: relative;  
+}
